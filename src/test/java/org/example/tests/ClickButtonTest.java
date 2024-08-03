@@ -19,7 +19,7 @@ public class ClickButtonTest {
 
     @BeforeClass
     public void Setup(){
-        System.setProperty("webdriver.chrome.driver", "src/main/java/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/java/org/example/drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
